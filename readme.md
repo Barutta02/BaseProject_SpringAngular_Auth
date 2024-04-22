@@ -29,19 +29,19 @@ Go to [npmjs.com](https://www.npmjs.com/) search for `ng-openapi-gen` --> run `n
   ]   
 
 
-  #angular-code-input for otp -> 'https://www.npmjs.com/package/angular-code-input'
+  # angular-code-input for otp -> 'https://www.npmjs.com/package/angular-code-input'
 
 
-  #Modules 
+  # Modules 
   to create a module --> ng g m book --routing
 and
   in app-routing -> loadChildren
 
 
-#Interceptor
-In angular service the interceptor add the jwt token to every http request, ricordati di aggiornare i provider.# BaseProject_SpringAngular_Auth
+# Interceptor
+In angular service the interceptor add the jwt token to every http request, ricordati di aggiornare i provider. BaseProject_SpringAngular_Auth
 
 
-#GUARD
+# GUARD
  - npm g guard auth -> CanActivate
  - npm instal @auth0/angular-jwt -> is needed to get the exipired state of the token
