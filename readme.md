@@ -39,4 +39,4 @@ and
 
 
 #Interceptor
-In angular service the interceptor add the jwt token to every http request, ricordati di aggiornare i provider.
+In angular service the interceptor add the jwt token to every http request, ricordati di aggiornare i provider.# BaseProject_SpringAngular_Auth
