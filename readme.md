@@ -40,3 +40,8 @@ and
 
 #Interceptor
 In angular service the interceptor add the jwt token to every http request, ricordati di aggiornare i provider.# BaseProject_SpringAngular_Auth
+
+
+#GUARD
+ - npm g guard auth -> CanActivate
+ - npm instal @auth0/angular-jwt -> is needed to get the exipired state of the token

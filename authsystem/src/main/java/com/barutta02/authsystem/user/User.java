@@ -1,7 +1,5 @@
 package com.barutta02.authsystem.user;
 
-import com.barutta02.authsystem.book.Book;
-import com.barutta02.authsystem.history.BookTransactionHistory;
 import com.barutta02.authsystem.role.Role;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -58,11 +56,7 @@ public class User implements UserDetails, Principal {
     @ManyToMany(fetch = EAGER) //Fetch all roles when user is fetched from database, non è lazy
     private List<Role> roles;
     
-    @OneToMany(mappedBy = "owner")
-    private List<Book> books;
-    @OneToMany(mappedBy = "user")
-    private List<BookTransactionHistory> histories;
-
+   
     //Automatically setted by Spring Data JPA
     @CreatedDate
     @Column(nullable = false, updatable = false)

@@ -48,6 +48,11 @@ public class BeansConfig {
         return new ApplicationAuditAware();
     }
 
+    /*
+     * This method is used to configure the CORS filter.
+     * The CORS filter is used to allow cross-origin requests to the server.
+     * Now the server will accept requests from the specified origin.
+     */
     @Bean
     public CorsFilter corsFilter() {
         final UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();

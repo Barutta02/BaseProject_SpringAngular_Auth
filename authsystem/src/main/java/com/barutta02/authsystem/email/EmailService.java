@@ -18,7 +18,7 @@ import static java.nio.charset.StandardCharsets.UTF_8;
 import static org.springframework.mail.javamail.MimeMessageHelper.MULTIPART_MODE_MIXED;
 
 @Service
-@Slf4j
+@Slf4j //this annotation is used to generate a logger field
 @RequiredArgsConstructor
 public class EmailService {
     private final JavaMailSender mailSender;

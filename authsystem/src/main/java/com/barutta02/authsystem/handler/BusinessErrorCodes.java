@@ -7,6 +7,10 @@ import static org.springframework.http.HttpStatus.BAD_REQUEST;
 import static org.springframework.http.HttpStatus.FORBIDDEN;
 import static org.springframework.http.HttpStatus.NOT_IMPLEMENTED;
 
+/**
+ * This enum represents the business error codes used in the application.
+ * Each error code has a corresponding HTTP status and description.
+ */
 public enum BusinessErrorCodes {
     NO_CODE(0, NOT_IMPLEMENTED, "No code"),
     INCORRECT_CURRENT_PASSWORD(300, BAD_REQUEST, "Current password is incorrect"),

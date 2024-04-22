@@ -8,6 +8,10 @@ import lombok.Setter;
 
 import java.util.List;
 
+
+/*
+ * This class is used to return a paginated response.
+ */
 @Getter
 @Setter
 @Builder

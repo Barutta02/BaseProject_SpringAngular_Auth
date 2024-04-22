@@ -21,7 +21,7 @@ import static org.springframework.http.HttpStatus.BAD_REQUEST;
 import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
 import static org.springframework.http.HttpStatus.UNAUTHORIZED;
 
-@RestControllerAdvice
+@RestControllerAdvice // This annotation is used to handle exceptions globally in the application
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(LockedException.class)
